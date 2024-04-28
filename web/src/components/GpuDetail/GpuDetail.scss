@@ -1,0 +1,15 @@
+.row-label {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* 定义一个类，用于添加悬浮效果 */
+.elevated-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px); /* 向上移动一点，增强悬浮效果 */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.power-format {
+  font-size: medium;
+}
